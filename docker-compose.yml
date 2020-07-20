@@ -1,0 +1,12 @@
+version: '2.2'
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: gomrm-mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_DATABASE: 'gomrm_test'
+      MYSQL_ROOT_PASSWORD: 'secret'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'true'
