@@ -1,4 +1,4 @@
-module github.com/zenthangplus/goorm
+module github.com/zenthangplus/gomrm
 
 go 1.14
 

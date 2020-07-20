@@ -2,13 +2,13 @@
 
 **Install using go get**
 ```shell script
-go get github.com/zenthangplus/goorm
+go get github.com/zenthangplus/gomrm
 ```
 
 **or using go mod**
 ```go
 package example
-import "github.com/zenthangplus/goorm"
+import "github.com/zenthangplus/gomrm"
 ```
 then
 ```shell script
